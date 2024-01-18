@@ -1,8 +1,9 @@
 l = int(input())
-s = input()[:l]
-a = [ord(i)-96 for i in list(s)]
+s = input()
+r = 31
+m = 1234567891
 
 result = 0
-for i in range(len(a)) :
-    result += a[i]*(31**i)
-print(result) 
+for i in range(l) :
+    result += (ord(s[i])-96) * (31**i)
+print(result%m)
