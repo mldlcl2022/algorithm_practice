@@ -1,6 +1,4 @@
-# enter n
-n = int(input())
+dan = int(input())
 
-# result
-for i in range(9) :
-    print(n, '*', i+1, '=', n*(i+1))
+for i in range(1,10) :
+    print(dan,'*',i,'=',dan*i)
