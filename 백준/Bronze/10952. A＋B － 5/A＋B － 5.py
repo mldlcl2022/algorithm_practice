@@ -1,7 +1,6 @@
 while True :
-    # enter a, b
-    a, b = map(int, input().split())
-    # cond
+    a,b = map(int, input().split())
+
     if a == 0 & b == 0 : break
-    # print
+    
     print(a+b)
