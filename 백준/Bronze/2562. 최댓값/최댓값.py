@@ -1,8 +1,6 @@
-# enter number list
-num_list = []
+l = []
 for i in range(9) :
-    num_list.append(int(input()))
+    l.append(int(input()))
 
-# result
-print(max(num_list))
-print(num_list.index(max(num_list))+1)
+print(max(l))
+print(l.index(max(l))+1)
