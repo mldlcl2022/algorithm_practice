@@ -1,6 +1,4 @@
-s = list(input())
-for i in range(97,123) :
-    try :
-        print(s.index(chr(i)), end= ' ')
-    except :
-        print(-1, end= ' ')
+s = input()
+for a in 'abcdefghijklmnopqrstuvwxyz' :
+    try : print(s.index(a), end= ' ')
+    except : print(-1, end= ' ')
