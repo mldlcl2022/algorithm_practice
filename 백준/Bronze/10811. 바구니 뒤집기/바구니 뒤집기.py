@@ -1,9 +1,7 @@
 n,m = map(int, input().split())
-l = [i for i in range(1,n+1)]
-
+b = [i+1 for i in range(n)]
 for _ in range(m) :
     i,j = map(int, input().split())
-    tmp = l[i-1:j][::-1]
-    l[i-1:j] = tmp
-
-for i in l : print(i, end= ' ')
+    b[i-1:j] = [b[i] for i in range(j-1,i-2,-1)]
+for i in b :
+    print(i, end= ' ')
