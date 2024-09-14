@@ -1,3 +1,4 @@
+import sys;input = sys.stdin.readline
 k, n = map(int, input().split())
 l = []
 for _ in range(k) :
