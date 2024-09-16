@@ -1,7 +1,7 @@
 import sys;input = sys.stdin.readline
 line_list = []
 for _ in range(int(input())) :
-    line_list.append(list(map(int, input().split())))
+    line_list.append(tuple(map(int, input().split())))
 
 line_list.sort()
 min_x, max_y = line_list[0][0], line_list[0][1]
