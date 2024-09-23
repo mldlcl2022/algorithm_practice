@@ -9,4 +9,4 @@ I solve problems using platforms like Baekjoon, Programmers, etc. and store the 
 
 
 # [이것이 취업을 위한 코딩테스트다](https://github.com/ndb796/python-for-coding-test)
-<br><img src="https://github.com/user-attachments/assets/e396fa76-bd50-4e54-9277-5adb2cbd2759" width="400" height="250"/><br>
+<br><img src="https://github.com/user-attachments/assets/e396fa76-bd50-4e54-9277-5adb2cbd2759" width="500" height="200"/><br>
