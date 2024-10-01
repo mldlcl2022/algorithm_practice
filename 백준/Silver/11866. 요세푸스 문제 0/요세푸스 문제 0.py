@@ -2,13 +2,9 @@ import sys;input = sys.stdin.readline
 from collections import deque
 n, k = map(int, input().split())
 queue = deque(list(range(1,n+1)))
-idx = 1
-result = []
-while queue :
-    if idx == k :
-        idx = 1
-        result.append(str(queue.popleft()))
+print('<', end= '')
+while True :
+    if len(queue) == 1 : print(f'{queue.popleft()}>');break
     else :
-        idx += 1
-        queue.append(queue.popleft())
-print('<',', '.join(result), '>', sep= '')
+        queue.rotate(-(k-1))
+        print(f'{queue.popleft()}, ', end= '')
