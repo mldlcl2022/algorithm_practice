@@ -1,13 +1,15 @@
 import sys;input = sys.stdin.readline
-k, n = map(int, input().split())
-l = []
+k,n = map(int, input().split())
+lines = []
 for _ in range(k) :
-    l.append(int(input()))
+    lines.append(int(input()))
 
-min_length = 1;max_length = max(l)
-while min_length <= max_length :
-    mid_length = (min_length + max_length) // 2
-    num = sum([i//mid_length for i in l])
-    if num >= n : min_length = mid_length + 1
-    else : max_length = mid_length - 1
-print(max_length)
+left = 1
+right = max(lines)
+lines.sort()
+while left <= right :
+    center = (left+right) // 2
+    cnt = sum([line//center for line in lines])
+    if cnt >= n : left = center+1
+    else : right = center-1
+print(right)
