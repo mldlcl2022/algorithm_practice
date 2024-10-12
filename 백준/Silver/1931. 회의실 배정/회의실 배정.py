@@ -1,15 +1,18 @@
 import sys;input = sys.stdin.readline
 from collections import deque
-m = []
-for _ in range(int(input())) :
-    s, e = map(int, input().split())
-    m.append((s,e))
+n = int(input())
+meeting = list()
+for _ in range(n) :
+    start, end = map(int, input().split())
+    meeting.append((start, end))
 
-tmp = 0
-total = 0
-sorted_m = sorted(m, key= lambda x: (x[1], x[0]))
-for start, end in sorted_m :
-    if tmp <= start :
-        total += 1
-        tmp = end
-print(total)
+meeting.sort(key= lambda x: (x[1], x[0]))
+meeting = deque(meeting)
+cnt = 0
+last_end = 0
+while meeting :
+    start, end = meeting.popleft()
+    if last_end <= start :
+        cnt += 1
+        last_end = end
+print(cnt)
