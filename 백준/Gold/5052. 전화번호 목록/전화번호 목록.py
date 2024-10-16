@@ -1,12 +1,14 @@
 import sys;input = sys.stdin.readline
-for _ in range(int(input())) :
-    nums = []
-    for _ in range(int(input())) :
-        nums.append(input().rstrip())
-    nums.sort()
+t = int(input())
+for _ in range(t) :
+    n = int(input())
+    tel_list = []
+    for _ in range(n) :
+        tel_list.append(input().rstrip())
+    
+    tel_list.sort()
     result = 'YES'
-    for i in range(len(nums)-1) :
-        if nums[i+1].startswith(nums[i]) :
-            result = 'NO'
-            break
+    for i in range(1,len(tel_list)) :
+        if tel_list[i].startswith(tel_list[i-1]) : result = 'NO'
+        else : continue
     print(result)
