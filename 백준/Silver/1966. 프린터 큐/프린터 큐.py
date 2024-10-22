@@ -1,17 +1,17 @@
 import sys;input = sys.stdin.readline
 from collections import deque
-for _ in range(int(input())) :
+t = int(input())
+for _ in range(t) :
     n,m = map(int, input().split())
-    importance_list = list(map(int, input().split()))
-    queue = deque([(importance, order) for order, importance in enumerate(importance_list)])
-
+    importances = deque([(importance, index) for index, importance in enumerate(list(map(int, input().split())))])
+    
     cnt = 0
-    search_paper = importance_list[m]
-    while queue :
-        importance, order = queue.popleft()
-        if len(queue) == 0 : cnt += 1
-        elif importance < max(queue)[0] : queue.append((importance, order))
-        elif importance >= max(queue)[0] :
-            if importance == search_paper and order == m : cnt += 1;break
+    paper = importances[m][0]
+    while importances :
+        pop = importances.popleft()
+        if len(importances) == 0 : cnt += 1
+        elif pop[0] >= max(importances)[0] :
+            if pop[0] == paper and pop[1] == m : cnt += 1;break
             else : cnt += 1
+        elif pop[0] < max(importances)[0] : importances.append(pop)
     print(cnt)
