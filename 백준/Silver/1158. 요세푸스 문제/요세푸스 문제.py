@@ -1,9 +1,9 @@
 import sys;input = sys.stdin.readline
 from collections import deque
 n,k = map(int, input().split())
-queue = deque(list(range(1,n+1)))
+l = deque(list(range(1,n+1)))
 result = []
-while queue :
-    queue.rotate(-(k-1))
-    result.append(queue.popleft())
-print('<'+', '.join(map(str, result))+'>')
+while l :
+    l.rotate(-(k-1))
+    result.append(str(l.popleft()))
+print('<'+', '.join(result)+'>')
