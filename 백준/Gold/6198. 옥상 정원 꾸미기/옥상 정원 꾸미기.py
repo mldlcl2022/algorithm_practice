@@ -1,13 +1,11 @@
 import sys;input = sys.stdin.readline
-buildings = []
-for _ in range(int(input())) :
-    buildings.append(int(input()))
+n = int(input())
+b = [int(input()) for _ in range(n)]
 
+cnt = 0
 stack = []
-result = 0
-for floor in buildings : 
-    while stack and stack[-1] <= floor :
-        stack.pop()
-    stack.append(floor)
-    result += len(stack) - 1
-print(result)
+for f in b :
+    while stack and stack[-1] <= f : stack.pop()
+    stack.append(f)
+    cnt += len(stack)-1
+print(cnt)
