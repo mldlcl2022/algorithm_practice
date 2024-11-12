@@ -1,12 +1,10 @@
-import sys
-
-n = int(sys.stdin.readline())
-num_list = [0] * 10001
-
+import sys;input = sys.stdin.readline
+n = int(input())
+nums = [0]*10001
 for _ in range(n) :
-    num_list[int(sys.stdin.readline())] += 1
+    nums[int(input())] += 1
 
 for i in range(10001) :
-    if num_list[i] != 0 :
-        for _ in range(num_list[i]) :
+    if nums[i] != 0 :
+        for _ in range(nums[i]) :
             print(i)
