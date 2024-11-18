@@ -1,8 +1,8 @@
 n = int(input())
-w_list = {}
+words = {}
 for _ in range(n) :
-    w = input()
-    w_list[w] = len(w)
+    word = input()
+    words[word] = len(word)
 
-for w in sorted(list(w_list.items()), key= lambda x: (x[1], x[0])) :
-    print(w[0])
+for word in sorted(list(words.items()), key= lambda x: (x[1], x[0])) :
+    print(word[0])
