@@ -1,17 +1,16 @@
+# 시간 초과과
 import sys;input = sys.stdin.readline
 n = int(input())
-stack = []
-for _ in range(n) :
-    stack.append(int(input()))
-cnt = 0
-bar = 0
+bars = []
 for i in range(n) :
-    if i == 0 :
+    h = int(input())
+    bars.append(h)
+
+cnt = 0
+current = 0
+for _ in range(len(bars)) :
+    pop_h = bars.pop()
+    if current < pop_h :
+        current = pop_h
         cnt += 1
-        bar = stack.pop()
-    else :
-        pop_num = stack.pop()
-        if pop_num > bar :
-            cnt += 1
-            bar = pop_num
 print(cnt)
