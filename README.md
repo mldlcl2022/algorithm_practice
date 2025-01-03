@@ -13,20 +13,20 @@
 3. 이것이 취업을 위한 코딩테스트다 </br>
 &ensp;Chapter 3. 그리디 </br>
 &ensp;&ensp;⊙ 계획 : 25년 1월 20일 ~ 25년 1월 26일 </br>
-&ensp;Chapter 4. 구현 </br>
-&ensp;Chapter 5. DFS/BFS </br>
-&ensp;Chapter 6. 정렬 </br>
-&ensp;Chapter 7. 이진 탐색 </br>
-&ensp;Chapter 8. 다이나믹 프로그래밍 </br>
-&ensp;Chapter 9. 최단 경로 </br>
-&ensp;Chapter 10. 그래프 이론 </br>
 &ensp;Chapter 11. 그리디 문제 </br>
+&ensp;Chapter 4. 구현 </br>
 &ensp;Chapter 12. 구현 문제 </br>
+&ensp;Chapter 5. DFS/BFS </br>
 &ensp;Chapter 13. DFS/BFS 문제 </br>
+&ensp;Chapter 6. 정렬 </br>
 &ensp;Chapter 14. 정렬 문제 </br>
+&ensp;Chapter 7. 이진 탐색 </br>
 &ensp;Chapter 15. 이진 탐색 문제 </br>
+&ensp;Chapter 8. 다이나믹 프로그래밍 </br>
 &ensp;Chapter 16. 다이나믹 프로그래밍 문제 </br>
+&ensp;Chapter 9. 최단 경로 </br>
 &ensp;Chapter 17. 최단 경로 문제 </br>
+&ensp;Chapter 10. 그래프 이론 </br>
 &ensp;Chapter 18. 그래프 이론 문제 </br>
 4. 백준 잔디 심기 : https://www.acmicpc.net/problem/tags </br>
 
