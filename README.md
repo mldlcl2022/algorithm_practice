@@ -1,3 +1,10 @@
+코딩테스트 준비를 위한 레포지토리입니다.</br>
+* python : 코드업, 백준, 이것이 취업을 위한 코딩테스트다, 프로그래머스</br>
+* SQL : 프로그래머스, LeetCode</br>
+
+
+
+
 This repository is for studying algorithms.</br>
 I solve problems using platforms like Baekjoon, Programmers, etc. and store the corresponding code here.</br>
 
