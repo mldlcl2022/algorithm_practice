@@ -2,6 +2,9 @@
 * python : 코드업, 백준, 이것이 취업을 위한 코딩테스트다, 프로그래머스</br>
 * SQL : 프로그래머스, LeetCode</br>
 
+</br>
+</br>
+
 # 공부 순서
 ### python
 1. 백준 1단계 ~ 6단계 : https://www.acmicpc.net/step </br>
