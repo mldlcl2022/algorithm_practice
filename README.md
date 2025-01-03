@@ -3,9 +3,9 @@
 * SQL : 프로그래머스, LeetCode</br>
 
 # 공부 순서
-1. 백준 1단계 ~ 6단계 : https://www.acmicpc.net/step
-2. 코드업 기초 100제 : https://www.codeup.kr/problemsetsol.php?psid=33
-3. 이것이 취업을 위한 코딩테스트다
+1. 백준 1단계 ~ 6단계 : https://www.acmicpc.net/step </br>
+2. 코드업 기초 100제 : https://www.codeup.kr/problemsetsol.php?psid=33 </br>
+3. 이것이 취업을 위한 코딩테스트다 </br>
   그리디
 
 
