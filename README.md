@@ -6,7 +6,17 @@
 1. 백준 1단계 ~ 6단계 : https://www.acmicpc.net/step </br>
 2. 코드업 기초 100제 : https://www.codeup.kr/problemsetsol.php?psid=33 </br>
 3. 이것이 취업을 위한 코딩테스트다 </br>
-&ensp;그리디
+&ensp;Chapter 3. 그리디
+&ensp;Chapter 4. 구현
+&ensp;Chapter 5. DFS/BFS
+&ensp;Chapter 6. 정렬
+&ensp;Chapter 7. 이진 탐색
+&ensp;Chapter 8. 다이나믹 프로그래밍
+&ensp;Chapter 9. 최단 경로
+&ensp;Chapter 10. 그래프 이론
+</br>
+&ensp;Chapter 11. 그리디 문제
+
 
 
 
