@@ -3,7 +3,6 @@
 * SQL : 프로그래머스, LeetCode</br>
 
 </br>
-</br>
 
 # 공부 순서
 ### python
@@ -30,6 +29,8 @@
 
 ### SQL
 * python 백준 잔디 심기 시작한 후 계획 세우기
+
+</br>
 
 # [백준(Baekjoon)](https://www.acmicpc.net/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=mldlcl2022)](https://solved.ac/mldlcl2022/)
