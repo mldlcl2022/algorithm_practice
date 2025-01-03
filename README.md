@@ -29,4 +29,4 @@
 * python 백준 잔디 심기 시작한 후 계획 세우기
 
 # [백준(Baekjoon)](https://www.acmicpc.net/)
-<br><img src="https://github.com/user-attachments/assets/f19f604d-76cf-4d9f-ba0a-1e76ffc8a54d" width="350" height="100"/><br>[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=mldlcl2022)](https://solved.ac/mldlcl2022/)
+[Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=mldlcl2022)](https://solved.ac/mldlcl2022/)
