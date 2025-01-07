@@ -1,5 +1,4 @@
-# result
-print("\\    /\\")
+print("\    /\\")
 print(" )  ( ')")
 print("(  /  )")
-print(" \\(__)|")
+print(" \(__)|")
