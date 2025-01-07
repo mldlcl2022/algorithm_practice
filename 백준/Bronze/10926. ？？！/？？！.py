@@ -1,5 +1,2 @@
-# enter id
-id = input()
-
-# result
-print(id+'??!')
+ID = input()
+print(ID+'??!')
