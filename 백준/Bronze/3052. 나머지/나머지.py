@@ -1,4 +1,5 @@
 l = []
 for _ in range(10) :
-    l.append(int(input()))
-print(len(set([num%42 for num in l])))
+    num = int(input())
+    l.append(num%42)
+print(len(set(l)))
