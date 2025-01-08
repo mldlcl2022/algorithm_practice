@@ -1,4 +1,7 @@
 n = int(input())
-l = list(map(int,input().split()))[:n]
-m = max(l)
-print(sum([i/m*100 for i in l])/n)
+s = list(map(int, input().split()))
+m = max(s)
+total = 0
+for i in range(len(s)) :
+    total += (s[i]/m*100)
+print(total/n)
