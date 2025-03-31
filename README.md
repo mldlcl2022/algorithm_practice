@@ -8,11 +8,12 @@
 ### python
 1. ~~백준 1단계 ~ 6단계 : https://www.acmicpc.net/step </br>~~
 &ensp;&ensp;~~⊙ 계획 : 25년 1월 6일 ~ 25년 1월 12일 </br>~~
-2. 코드업 기초 100제 : https://www.codeup.kr/problemsetsol.php?psid=33 </br>
-&ensp;&ensp;⊙ 계획 : 25년 1월 13일 ~ 25년 1월 19일 </br>
-3. 이것이 취업을 위한 코딩테스트다 </br>
+3. ~~코드업 기초 100제 : https://www.codeup.kr/problemsetsol.php?psid=33 </br>~~
+&ensp;&ensp;~~⊙ 계획 : 25년 1월 13일 ~ 25년 1월 19일 </br>~~
+&ensp;&ensp;~~⊙ 완료 : 25년 3월 31일 </br>~~
+4. 이것이 취업을 위한 코딩테스트다 </br>
 &ensp;Chapter 3. 그리디 </br>
-&ensp;&ensp;⊙ 계획 : 25년 1월 20일 ~ 25년 1월 26일 </br>
+&ensp;&ensp;⊙ 계획 : 25년 3월 31일 ~ 25년 4월 6일 </br>
 &ensp;Chapter 11. 그리디 문제 </br>
 &ensp;Chapter 4. 구현 </br>
 &ensp;Chapter 12. 구현 문제 </br>
@@ -28,7 +29,7 @@
 &ensp;Chapter 17. 최단 경로 문제 </br>
 &ensp;Chapter 10. 그래프 이론 </br>
 &ensp;Chapter 18. 그래프 이론 문제 </br>
-4. 백준 잔디 심기 : https://www.acmicpc.net/problem/tags </br>
+5. 백준 잔디 심기 : https://www.acmicpc.net/problem/tags </br>
 
 ### SQL
 * python 백준 잔디 심기 시작한 후 계획 세우기
